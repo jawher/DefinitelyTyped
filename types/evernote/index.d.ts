@@ -824,7 +824,7 @@ export namespace Types {
     class Data {
         bodyHash?: string | undefined;
         size?: number | undefined;
-        body?: string | undefined;
+        body?: string | Buffer | undefined;
         constructor(args?: { bodyHash?: string | undefined, size?: number | undefined, body?: string | undefined });
     }
     type Guid = string;
